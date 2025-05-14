@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RTiwari & Associates</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-family: 'Merriweather', serif;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: 500;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1590650046871-1a049c0b8b18') no-repeat center/cover;
+      height: 80vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 0 2rem;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+      font-family: 'Merriweather', serif;
+      background-color: rgba(0,0,0,0.5);
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .service-card {
+      background: white;
+      padding: 1.5rem;
+      width: 280px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #002d5a;
+      color: white;
+      text-align: center;
+      padding: 2rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>RTiwari & Associates</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h2>Your Trusted Legal & Financial Advisors</h2>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>RTiwari & Associates is a premier consulting firm offering legal, tax, and business advisory services to individuals and enterprises across India. We are committed to providing reliable and professional solutions tailored to our clients' needs.</p>
+  </section>
+
+  <section id="services" class="section">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Income Tax Filing</h3>
+        <p>Timely and accurate ITR filing for individuals, professionals, and companies.</p>
+      </div>
+      <div class="service-card">
+        <h3>GST Consultancy</h3>
+        <p>End-to-end GST registration, filing, and compliance support.</p>
+      </div>
+      <div class="service-card">
+        <h3>Company Incorporation</h3>
+        <p>Register your business legally with ease – Pvt Ltd, LLP, or OPC.</p>
+      </div>
+      <div class="service-card">
+        <h3>Legal Advisory</h3>
+        <p>Expert legal advice and document drafting from experienced professionals.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: contact@rtiwariandassociates.com</p>
+    <p>Phone: +91 98765 43210</p>
+    <p>Office: 402, Legal Heights, New Delhi, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 RTiwari & Associates. All rights reserved.</p>
+  </footer>
+</body>
+</html>
